@@ -9,7 +9,7 @@ Current state
 --------
 - ContentProvider is not hard to wrap.
 - Rest libraries can support RxJava out of the box (Retrofit)
-- A state manager that can provide an easy replacement for Loaders is needed. On the plus side, `Observables` can be composed, so you can define an `Observable<T>` as the task and return a wrapped `Subject<T>` that takes care of caches etc.
+- A state manager that can provide an easy replacement for `Loaders` is needed. On the plus side, `Observables` can be composed, so you can define an `Observable<T>` as the task and return a wrapped `Subject<T>` that takes care of cache, threading, sharing results etc. Storing `Loaders` with keys should sound familiar to most Android users.
 
 Todo
 --------
