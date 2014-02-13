@@ -3,7 +3,7 @@ ReactiveContent
 
 Target
 --------
-- From ContentProvider monitoring to network calls, everything should dance to the rythm of `Observable<T>`
+- From ContentProvider monitoring to network calls, everything should dance to the rhythm of `Observable<T>`
 
 Current state
 --------
